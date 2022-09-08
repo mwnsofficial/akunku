@@ -1,0 +1,14 @@
+proxies:
+- name: auto2
+  server: blog.midtrans.com
+  port: 443
+  type: trojan
+  password: 66b01e66-e219-4ec4-bb8d-ad2423a603c4
+  sni: 7di7.vpsxc.my.id
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojanws
+    headers:
+      Host: 7di7.vpsxc.my.id
