@@ -1,0 +1,14 @@
+proxies:
+- name: auto1
+  server: note0.microsoft.com
+  port: 443
+  type: trojan
+  password: a6c25d96-5072-4fd1-aad3-a698f8544fd4
+  sni: 7di7.vpsxc.my.id
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojanws
+    headers:
+      Host: 7di7.vpsxc.my.id
