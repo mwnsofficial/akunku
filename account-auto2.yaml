@@ -12,3 +12,16 @@ proxies:
     path: /trojanws
     headers:
       Host: 7di7.vpsxc.my.id
+- name: auto3
+  server: blog.midtrans.com
+  port: 443
+  type: trojan
+  password: 3f646e80-2f7d-11ed-a613-1239d0255272
+  sni: g1-trojan.bonds.id
+  skip-cert-verify: true
+  udp: true
+  network: ws
+  ws-opts:
+    path: /trojanws
+    headers:
+      Host: g1-trojan.bonds.id
